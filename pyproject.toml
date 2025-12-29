@@ -9,3 +9,11 @@ dependencies = [
     "isbnlib>=3.10.14",
     "zstandard>=0.25.0",
 ]
+
+[project.scripts]
+print_md5_isbns = "main:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+]
