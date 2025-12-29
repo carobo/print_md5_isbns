@@ -1,0 +1,11 @@
+[project]
+name = "print-md5-isbns"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bencode-py>=4.0.0",
+    "isbnlib>=3.10.14",
+    "zstandard>=0.25.0",
+]
